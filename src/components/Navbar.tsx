@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     },
     navLink: {
         textDecoration: 'none',
+        margin:'5px',
     },
     navButton: {
         backgroundColor: 'var(--primary-bg)',
@@ -26,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Navbar = () => {
-    const { header, nav, navButton, navLink } = useStyles();
+    const { header, nav, navButton, navLink} = useStyles();
     const auth = useAuth();
     const history = useHistory();
 
@@ -46,9 +47,14 @@ const Navbar = () => {
                         Logout
                     </Button>
                 ) : (
-                    <Link className={navLink} to="/login">
-                        <Button className={navButton}>Login</Button>
-                    </Link>
+                    <div>
+                        <Link className={navLink} to="/login">
+                            <Button className={navButton}>Login</Button>
+                        </Link>
+                        <Link className={navLink} to="/register">
+                            <Button className={navButton}>Register</Button>
+                        </Link>
+                    </div>
                 )}
             </Toolbar>
         </AppBar>
