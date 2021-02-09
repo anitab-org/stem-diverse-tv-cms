@@ -4,6 +4,7 @@ import { AuthProvider } from '../context/AuthContext';
 import Login from '../pages/Login';
 import Home from '../pages/Home';
 import Navbar from './Navbar';
+import Register from '../pages/Register';
 import { Box } from '@material-ui/core';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
@@ -25,6 +26,10 @@ const routes = [
     {
         path: '/login',
         component: <Login />,
+    },
+    {
+        path: '/register',
+        component: <Register />,
     },
 ];
 
