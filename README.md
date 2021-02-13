@@ -19,11 +19,11 @@ STEM Diverse TV is a project which gather and provide inspiring, motivating, inf
 
 ## Technical Stack
 
-For CMS we will be using React JS.
+- React JS.
 
 ## Setup and run
 
-TBD
+To setup the project locally follow the instructions:
 
 #### Fork
 
@@ -67,12 +67,24 @@ upstream        https://github.com/anitab-org/stem-diverse-tv-cms (fetch)
 upstream        https://github.com/anitab-org/stem-diverse-tv-cms (push)
 ```
 
+### Run app
+Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it. 
+##### For yarn users
+Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
+
+To get the frontend running locally:
+- run `yarn` or `npm i` to install all required dependencies
+- run `yarn start` or `npm start` to start the local server
+
 ## Contributing
 
 **This project is under active development**
 
 Please read our [Contributing Guidelines](docs/contributing_guidelines.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
 
+## Branches
+- master: This contains the latest code. All the contributing PRs must be sent to this branch.
+- production: Merge master into production triggers deployment of the website.
 
 ## Contact
 
