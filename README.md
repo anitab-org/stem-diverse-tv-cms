@@ -1,14 +1,24 @@
+[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://anitab-org.zulipchat.com/#narrow/stream/225705-STEM-diverse-tv)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/anitab-org/stem-diverse-tv-cms)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/anitab-org/stem-diverse-tv-cms/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/anitab-org/stem-diverse-tv-cms/stargazers)
+
+
 # About STEM Diverse TV Content Management System
 
 Content Management System (CMS) for managing content of STEM Diverse TV backend. This repository is for frontend part for STEM Diverse TV [backend](https://github.com/anitab-org/stem-diverse-tv), so we could manage add/remove and edit content of our platform apps.
 
-At the moment all content is comming from Youtube, however we are planning to extend that with other sources in future.
+At the moment all content is coming from Youtube, however we are planning to extend that with other sources in future.
 
 **Table of Contents**
 - [About STEM Diverse TV Project](#about-stem-diverse-tv-project)
 - [Technical Stack](#technical-stack)
 - [Setup and run](#setup-and-run)
 - [Contributing](#contributing)
+- [Branches](#branches)
 - [Contact](#contact)
 - [License](#license)
 
@@ -19,11 +29,11 @@ STEM Diverse TV is a project which gather and provide inspiring, motivating, inf
 
 ## Technical Stack
 
-For CMS we will be using React JS.
+- React JS.
 
 ## Setup and run
 
-TBD
+To setup the project locally follow the instructions:
 
 #### Fork
 
@@ -67,12 +77,25 @@ upstream        https://github.com/anitab-org/stem-diverse-tv-cms (fetch)
 upstream        https://github.com/anitab-org/stem-diverse-tv-cms (push)
 ```
 
+### Run app
+Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it. 
+##### For yarn users
+Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
+
+To get the frontend running locally:
+- run `yarn` or `npm i` to install all required dependencies
+- run `yarn start` or `npm run start` to start the local server
+
 ## Contributing
 
 **This project is under active development**
 
 Please read our [Contributing Guidelines](docs/contributing_guidelines.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
 
+## Branches
+
+- master: This contains the latest code. All the contributing PRs must be sent to this branch.
+- production: Merge to master will trigger deployment static github page and publish it on production branch.
 
 ## Contact
 
