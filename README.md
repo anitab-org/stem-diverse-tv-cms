@@ -93,7 +93,7 @@ To get the frontend running locally:
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/CONTRIBUTING_GUIDELINES.md), [Code of Conduct](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/CODE_OF_CONDUCT.md) and [Reporting Guidelines](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/REPORTING_GUIDLINES.md) thoroughly.
+Please read our [Contributing Guidelines](.github/CONTRIBUTING_GUIDELINES.md), [Code of Conduct](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/CODE_OF_CONDUCT.md) and [Reporting Guidelines](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/REPORTING_GUIDLINES.md) thoroughly.
 
 ## Branches
 
