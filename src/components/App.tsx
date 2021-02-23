@@ -35,7 +35,7 @@ const routes = [
 
 function App() {
     const { siteWrapper } = useStyles();
-
+    
     return (
         <Router>
             <AuthProvider>
