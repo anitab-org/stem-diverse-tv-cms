@@ -83,8 +83,11 @@ Download the latest stable version of NodeJs [here](https://nodejs.org/en/downlo
 Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
 
 To get the frontend running locally:
-- run `yarn` or `npm i` to install all required dependencies
-- run `yarn start` or `npm run start` to start the local server
+- Run `yarn` or `npm i` to install all required dependencies
+- Setup the env file in the root directory of the project & copy the template from the sample env file 
+  - If you are running it locally & want your credentials to be stored in your project that you made on firebase you need to set REACT_APP_ENVIRONMENT_CONFIG=local 
+  - If you are running it & want your credentials to be stored on the hosted version of this project i.e, ` https://stem-diverse-tv.herokuapp.com/ ` ,you need to set REACT_APP_ENVIRONMENT_CONFIG=prod 
+- Run `yarn start` or `npm run start` to start the local server
 
 ## Contributing
 
