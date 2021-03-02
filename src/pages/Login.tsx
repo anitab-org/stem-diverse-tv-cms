@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { Button, Container } from '@material-ui/core';
+import { Button, Container, InputAdornment, IconButton, OutlinedInput, FormControl, InputLabel} from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import { useForm } from 'react-hook-form';
 import { publicFetch } from '../utils/fetch';
 import { useAuth } from '../context/AuthContext';
 import { Redirect } from 'react-router-dom';
+import {Visibility,VisibilityOff} from '@material-ui/icons';
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
@@ -34,6 +35,10 @@ const useStyles = makeStyles((theme: Theme) =>
         error: {
             color: '#ff0000',
         },
+        textField: {
+            width: '100%',
+            margin:'1rem 0rem',
+        }    
     })
 );
 
@@ -46,11 +51,12 @@ const Login = () => {
     const [loading, setLoading] = useState(false);
     const [redirectAfterLogin, setRedirectAfterLogin] = useState(false);
     const [loginError, setLoginError] = useState(false);
+    const [showPassword, setShowPassword] = useState(false);
 
     const auth = useAuth();
     const { register, handleSubmit, errors } = useForm<FormData>();
-    const { container, form, submitButton, error } = useStyles();
-
+    const { container, form, submitButton, error, textField } = useStyles();
+    
     const onSubmit = async (data: FormData) => {
         try {
             setLoginError(false);
@@ -99,25 +105,37 @@ const Login = () => {
                             error={errors.email ? true : false}
                             helperText={errors.email ? errors.email.message : undefined}
                         />
-                        <TextField
-                            required
-                            id="password-input"
-                            name="password"
-                            label="Password"
-                            type="password"
-                            autoComplete="current-password"
-                            variant="outlined"
-                            inputRef={register({
-                                required: 'You must provide a password.',
-                                minLength: {
-                                    value: 6,
-                                    message: 'Your password must be greater than 6 characters',
-                                },
-                            })}
-                            error={errors.password ? true : false}
-                            helperText={errors.password ? errors.password.message : undefined}
-                            fullWidth
-                        />
+                        <FormControl className={textField} variant="outlined">
+                        <InputLabel htmlFor="password-input">Password</InputLabel>
+                            <OutlinedInput
+                                required
+                                id="password-input"
+                                name="password"
+                                label="Password"
+                                type={showPassword?"text":"password"}
+                                autoComplete="current-password"
+                                labelWidth={70}
+                                inputRef={register({
+                                    required: 'You must provide a password.',
+                                    minLength: {
+                                        value: 6,
+                                        message: 'Your password must be greater than 6 characters',
+                                    },
+                                })}
+                                error={errors.password ? true : false}
+                                fullWidth
+                                endAdornment={
+                                    <InputAdornment position="end">
+                                        <IconButton
+                                        aria-label="toggle password visibility"
+                                        onClick={()=>setShowPassword(!showPassword)}
+                                        >
+                                        {showPassword ? <Visibility /> : <VisibilityOff />}
+                                        </IconButton>
+                                    </InputAdornment>        
+                                }
+                            />
+                        </FormControl>
                         <Button type="submit" fullWidth className={submitButton}>
                             {loading ? 'Loading...' : 'Login'}
                         </Button>
