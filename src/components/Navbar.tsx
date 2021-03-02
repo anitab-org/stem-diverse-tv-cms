@@ -39,7 +39,7 @@ const Navbar = () => {
     return (
         <AppBar position="sticky" className={header}>
             <Toolbar className={nav}>
-                <Link to="/stem-diverse-tv-cms">
+                <Link to="/">
                     <img src={logo} alt="Stem Diverse TV Logo" height="70" />
                 </Link>
                 {auth.isAuthenticated() ? (
