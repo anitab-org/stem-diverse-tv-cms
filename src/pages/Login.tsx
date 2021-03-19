@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { Button, Container, InputAdornment, IconButton, OutlinedInput, FormControl, InputLabel} from '@material-ui/core';
+import { Button, Container } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import { useForm } from 'react-hook-form';
 import { publicFetch } from '../utils/fetch';
@@ -35,10 +35,6 @@ const useStyles = makeStyles((theme: Theme) =>
         error: {
             color: '#ff0000',
         },
-        textField: {
-            width: '100%',
-            margin:'1rem 0rem',
-        }    
     })
 );
 
@@ -55,7 +51,7 @@ const Login = () => {
 
     const auth = useAuth();
     const { register, handleSubmit, errors } = useForm<FormData>();
-    const { container, form, submitButton, error, textField } = useStyles();
+    const { container, form, submitButton, error } = useStyles();
     
     const onSubmit = async (data: FormData) => {
         try {
@@ -105,37 +101,6 @@ const Login = () => {
                             error={errors.email ? true : false}
                             helperText={errors.email ? errors.email.message : undefined}
                         />
-                        <FormControl className={textField} variant="outlined">
-                        <InputLabel htmlFor="password-input">Password</InputLabel>
-                            <OutlinedInput
-                                required
-                                id="password-input"
-                                name="password"
-                                label="Password"
-                                type={showPassword?"text":"password"}
-                                autoComplete="current-password"
-                                labelWidth={70}
-                                inputRef={register({
-                                    required: 'You must provide a password.',
-                                    minLength: {
-                                        value: 6,
-                                        message: 'Your password must be greater than 6 characters',
-                                    },
-                                })}
-                                error={errors.password ? true : false}
-                                fullWidth
-                                endAdornment={
-                                    <InputAdornment position="end">
-                                        <IconButton
-                                        aria-label="toggle password visibility"
-                                        onClick={()=>setShowPassword(!showPassword)}
-                                        >
-                                        {showPassword ? <Visibility /> : <VisibilityOff />}
-                                        </IconButton>
-                                    </InputAdornment>        
-                                }
-                            />
-                        </FormControl>
                         <Button type="submit" fullWidth className={submitButton}>
                             {loading ? 'Loading...' : 'Login'}
                         </Button>
