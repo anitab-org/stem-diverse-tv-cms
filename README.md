@@ -6,7 +6,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/anitab-org/stem-diverse-tv-cms/network/members)
 [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/anitab-org/stem-diverse-tv-cms/stargazers)
 
-
 # About STEM Diverse TV Content Management System
 
 Content Management System (CMS) for managing content of STEM Diverse TV backend. This repository is for frontend part for STEM Diverse TV [backend](https://github.com/anitab-org/stem-diverse-tv), so we could manage add/remove and edit content of our platform apps.
@@ -14,6 +13,7 @@ Content Management System (CMS) for managing content of STEM Diverse TV backend.
 At the moment all content is coming from Youtube, however we are planning to extend that with other sources in future.
 
 **Table of Contents**
+
 - [About STEM Diverse TV Project](#about-stem-diverse-tv-project)
 - [Technical Stack](#technical-stack)
 - [Setup and run](#setup-and-run)
@@ -26,7 +26,6 @@ At the moment all content is coming from Youtube, however we are planning to ext
 
 STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the frontend of the project.
 
-
 ## Technical Stack
 
 - React JS.
@@ -37,31 +36,31 @@ To setup the project locally follow the instructions:
 
 #### Fork
 
-_**Note**_: *This is only needed if you want to contribute to the project.*
+_**Note**_: _This is only needed if you want to contribute to the project._
 
 If you want to contribute to the project you will have to create your own copy of the project on GitHub. You can do this by clicking the Fork button that can be found on the top right corner of the [landing page](https://github.com/anitab-org/stem-diverse-tv) of the repository.
 
 #### Clone
 
-_**Note**_: *For this you need to install git on your machine. You can download the git tool from [here](https://git-scm.com/downloads).*
+_**Note**_: _For this you need to install git on your machine. You can download the git tool from [here](https://git-scm.com/downloads)._
 
- * If you have forked the project, run the following command -
+- If you have forked the project, run the following command -
 
-   `git clone https://github.com/YOUR_GITHUB_USER_NAME/stem-diverse-tv-cms`
+  `git clone https://github.com/YOUR_GITHUB_USER_NAME/stem-diverse-tv-cms`
 
-   where `YOUR_GITHUB_USER_NAME` is your GitHub handle.
+  where `YOUR_GITHUB_USER_NAME` is your GitHub handle.
 
- * If you haven't forked the project, run the following command -
+- If you haven't forked the project, run the following command -
 
-   `git clone https://github.com/anitab-org/stem-diverse-tv-cms`
+  `git clone https://github.com/anitab-org/stem-diverse-tv-cms`
 
- * Now after you cloned the repository, get into the stem-diverse-tv-cms directory by -
+- Now after you cloned the repository, get into the stem-diverse-tv-cms directory by -
 
-   `cd stem-diverse-tv-cms`
+  `cd stem-diverse-tv-cms`
 
 #### Remote
 
-_**Note**_: *This is only needed if you want to contribute to the project.*
+_**Note**_: _This is only needed if you want to contribute to the project._
 
 When a repository is cloned, it has a default remote named `origin` that points to your fork on GitHub, not the original repository it was forked from. To keep track of the original repository, you should add another remote named upstream. For this project it can be done by running the following command -
 
@@ -78,22 +77,30 @@ upstream        https://github.com/anitab-org/stem-diverse-tv-cms (push)
 ```
 
 ### Run app
-Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it. 
+
+Download the latest stable version of NodeJs [here](https://nodejs.org/en/download/) and install it.
+
 ##### For yarn users
+
 Install `yarn`. Run `node --version` and `yarn --version` to verify successful installation.
 
 To get the frontend running locally:
+
 - Run `yarn` or `npm i` to install all required dependencies
+
 - Setup the env file in the root directory of the project & copy the template from the sample env file 
+
   - If you are running it locally & want your credentials to be stored in your project that you made on firebase you need to set REACT_APP_ENVIRONMENT_CONFIG=local 
+
   - If you are running it & want your credentials to be stored on the hosted version of this project i.e, ` https://stem-diverse-tv.herokuapp.com/ ` ,you need to set REACT_APP_ENVIRONMENT_CONFIG=prod 
+
 - Run `yarn start` or `npm run start` to start the local server
 
 ## Contributing
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](docs/contributing_guidelines.md), [Code of Conduct](docs/code_of_conduct.md) and [Reporting Guidelines](docs/reporting_guidelines.md) thoroughly.
+Please read our [Contributing Guidelines](.github/CONTRIBUTING_GUIDELINES.md), [Code of Conduct](.github/CODE_OF_CONDUCT.md) and [Reporting Guidelines](.github/REPORTING_GUIDLINES.md) thoroughly.
 
 ## Branches
 
@@ -107,5 +114,3 @@ If you have any questions or want to discuss something about this repo, feel fre
 ## License
 
 The project is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](LICENSE) file.
-
-

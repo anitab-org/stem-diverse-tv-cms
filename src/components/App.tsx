@@ -37,7 +37,7 @@ function App() {
     const { siteWrapper } = useStyles();
     
     return (
-        <Router>
+        <Router basename="/stem-diverse-tv-cms">
             <AuthProvider>
                 <Box className={siteWrapper}>
                     <Navbar />
