@@ -103,7 +103,7 @@ const Register = () => {
             
             if (response && response.data) {
                 setVerifyEmail(response.data.verify_link);
-                setRegisterationStatus('');   
+                setRegisterationStatus(response.data.message);   
             }
             setLoading(false);
         } catch (error) {
