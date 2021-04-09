@@ -103,6 +103,16 @@ To get the frontend running locally:
 
 Please read our [Contributing Guidelines](.github/CONTRIBUTING_GUIDELINES.md), [Code of Conduct](.github/CODE_OF_CONDUCT.md) and [Reporting Guidelines](.github/REPORTING_GUIDLINES.md) thoroughly.
 
+### Contributors
+
+Thanks goes to these people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+Contributions of any kind welcome!
+
 ## Branches
 
 - master: This contains the latest code. All the contributing PRs must be sent to this branch.
