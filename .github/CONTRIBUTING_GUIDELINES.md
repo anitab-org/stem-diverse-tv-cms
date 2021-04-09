@@ -3,12 +3,12 @@
 * Remember that this is an inclusive community, committed to creating a safe, positive environment. See the full [Code of Conduct](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/CODE_OF_CONDUCT.md).
 * Follow our [Commit Message Style Guide](https://github.com/anitab-org/mentorship-android/wiki/Commit-Message-Style-Guide) when you commit your changes.
 * Please consider raising an issue before submitting a pull request (PR) to solve a problem that is not present in our [issue tracker](https://github.com/anitab-org/stem-diverse-tv-cms/issues). This allows maintainers to first validate the issue you are trying to solve and also reference the PR to a specific issue.
-* When requesting a new feature, please follow [feature request template](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/ISSUE_TEMPLATE/feature_request.md).
+* When requesting a new feature, please follow [feature request template](https://github.com/anitab-org/.github/blob/main/.github/ISSUE_TEMPLATE/feature_request.md).
 * When developing a new feature, include at least one test when applicable.
 * When submitting a PR, please follow [PR template](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/PULL_REQUEST_TEMPLATE.md) (which will probably be already filled up once you create the PR).
 * When submitting a PR with changes to user interface (e.g.: new screen, ...), please add screenshots to the PR description.
 * When you are finished with your work, please squash your commits otherwise we will squash them on your PR (this can help us maintain a clear commit history).
-* When creating an issue to report a bug in the project, please follow our [bug report template](https://github.com/anitab-org/stem-diverse-tv-cms/blob/master/.github/ISSUE_TEMPLATE/bug_report.md).
+* When creating an issue to report a bug in the project, please follow our [bug report template](https://github.com/anitab-org/.github/blob/main/.github/ISSUE_TEMPLATE/bug_report.md).
 * Issues labeled as **“First Timers Only”** are meant for contributors who have not contributed to the project yet. Please choose other issues to contribute to, if you have already contributed to these type of issues.
 # General Guidelines
 * If you’re just getting started work on an issue labeled **“First Timers Only”** in any project. Additional resources are available on our [website](http://systers.io/).
