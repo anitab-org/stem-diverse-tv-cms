@@ -12,16 +12,6 @@ Content Management System (CMS) for managing content of STEM Diverse TV backend.
 
 At the moment all content is coming from Youtube, however we are planning to extend that with other sources in future.
 
-**Table of Contents**
-
-- [About STEM Diverse TV Project](#about-stem-diverse-tv-project)
-- [Technical Stack](#technical-stack)
-- [Setup and run](#setup-and-run)
-- [Contributing](#contributing)
-- [Branches](#branches)
-- [Contact](#contact)
-- [License](#license)
-
 ## About STEM Diverse TV Project
 
 STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the frontend of the project.
