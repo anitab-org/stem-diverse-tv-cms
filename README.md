@@ -5,10 +5,10 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 [![GitHub forks](https://img.shields.io/github/forks/anitab-org/stem-diverse-tv-cms)](https://github.com/anitab-org/stem-diverse-tv-cms/network/members)
 [![GitHub stars](https://img.shields.io/github/stars/anitab-org/stem-diverse-tv-cms)](https://github.com/anitab-org/stem-diverse-tv-cms/stargazers)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://github.com/anitab-org/stem-diverse-tv-cms)
-[![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/anitab-org/stem-diverse-tv-cms)
-[![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/anitab-org/stem-diverse-tv-cms)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://github.com/anitab-org/stem-diverse-tv-cms)
+![HTML](https://img.shields.io/badge/made%20with-HTML-red)
+![CSS](https://img.shields.io/badge/made%20with-CSS-blue)
+![TypeScript](https://img.shields.io/badge/made%20with-TypeScript-yellow)
+![React](https://img.shields.io/badge/made%20with-React-lightgrey)
 # About STEM Diverse TV Content Management System
 
 Content Management System (CMS) for managing content of STEM Diverse TV backend. This repository is for frontend part for STEM Diverse TV [backend](https://github.com/anitab-org/stem-diverse-tv), so we could manage add/remove and edit content of our platform apps.
