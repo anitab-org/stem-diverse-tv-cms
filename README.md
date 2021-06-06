@@ -79,18 +79,35 @@ Install `yarn`. Run `node --version` and `yarn --version` to verify successful i
 
 To get the frontend running locally:
 
-
 - Run `yarn` or `npm i` to install all required dependencies
 
-- Setup the env file in the root directory of the project & copy the template from the sample env file 
+- Setup the env file in the root directory of the project & copy the template from the sample env file
 
-  - If you are running it locally & want your credentials to be stored in your project that you made on firebase you need to set REACT_APP_ENVIRONMENT_CONFIG=local 
+  - If you are running it locally & want your credentials to be stored in your project that you made on firebase you need to set REACT_APP_ENVIRONMENT_CONFIG=local
 
-  - If you are running it & want your credentials to be stored on the hosted version of this project i.e, ` https://stem-diverse-tv.herokuapp.com/ ` ,you need to set REACT_APP_ENVIRONMENT_CONFIG=prod 
+  - If you are running it & want your credentials to be stored on the hosted version of this project i.e, `https://stem-diverse-tv.herokuapp.com/` ,you need to set REACT_APP_ENVIRONMENT_CONFIG=prod
 
 - Run `yarn start` or `npm run start` to start the local server
 
 ## Contributing
+
+### Lint & Format
+
+This repository using [Eslint](https://eslint.org/docs/user-guide/getting-started) and [Prettier](https://prettier.io/docs/en/index.html) for linting code and formatting source code.
+
+#### To Run ESlint
+
+You may use `npm` or `yarn` for this -
+
+`npm run lint` : Lint check.
+
+`npm run lint:fix` : Lint check and also fixes errors.
+
+#### To Format Files:
+
+`npm run format:check` : Check if code already formatted.
+
+`npm run format` : Format code.
 
 **This project is under active development**
 
