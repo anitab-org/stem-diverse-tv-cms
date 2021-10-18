@@ -9,6 +9,7 @@
 ![CSS](https://img.shields.io/badge/made%20with-CSS-blue)
 ![TypeScript](https://img.shields.io/badge/made%20with-TypeScript-yellow)
 ![React](https://img.shields.io/badge/made%20with-React-lightgrey)
+
 # About STEM Diverse TV Content Management System
 
 Content Management System (CMS) for managing content of STEM Diverse TV backend. This repository is for frontend part for STEM Diverse TV [backend](https://github.com/anitab-org/stem-diverse-tv), so we could manage add/remove and edit content of our platform apps.
@@ -17,7 +18,7 @@ At the moment all content is coming from Youtube, however we are planning to ext
 
 ## About STEM Diverse TV Project
 
-STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the frontend of the project.
+STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the backend of the project.
 
 ## Technical Stack
 

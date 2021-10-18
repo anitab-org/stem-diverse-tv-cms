@@ -92,7 +92,7 @@ const Register = () => {
       username: data.username,
       email: data.email,
       password: data.password,
-      termsAndConditionChecked,
+      terms_and_conditions_checked: termsAndConditionChecked,
     };
 
     try {
