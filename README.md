@@ -9,6 +9,7 @@
 ![CSS](https://img.shields.io/badge/made%20with-CSS-blue)
 ![TypeScript](https://img.shields.io/badge/made%20with-TypeScript-yellow)
 ![React](https://img.shields.io/badge/made%20with-React-lightgrey)
+
 # About STEM Diverse TV Content Management System
 
 Content Management System (CMS) for managing content of STEM Diverse TV backend. This repository is for frontend part for STEM Diverse TV [backend](https://github.com/anitab-org/stem-diverse-tv), so we could manage add/remove and edit content of our platform apps.
