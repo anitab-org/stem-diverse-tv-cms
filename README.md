@@ -17,7 +17,7 @@ At the moment all content is coming from Youtube, however we are planning to ext
 
 ## About STEM Diverse TV Project
 
-STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the frontend of the project.
+STEM Diverse TV is a project which gather and provide inspiring, motivating, informative, educational and supportive videos about diversity in STEM. This is the backend of the project.
 
 ## Technical Stack
 
